@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
 @Log4j2
 @Service
 @RequiredArgsConstructor
-public class ClubUserDetailService implements UserDetailsService {
+public class ClubUserDetailsService implements UserDetailsService {
 
     private final ClubMemberRepository clubMemberRepository;
 
